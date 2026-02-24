@@ -17,9 +17,9 @@ model = pickle.load(open("models/model.pkl", "rb"))
 # Tabs
 tab1, tab2 = st.tabs(["🚕 Trip Prediction", "📊 Demand Analytics"])
 
-# ===========================
+
 # TAB 1: TRIP PREDICTION
-# ===========================
+
 
 with tab1:
     st.subheader("Predict Trip Duration")
@@ -47,9 +47,8 @@ with tab1:
         estimated_fare = 2.5 + (distance * 1.8)
         st.info(f"Estimated Fare: ${estimated_fare:.2f}")
 
-# ===========================
+
 # TAB 2: DEMAND ANALYTICS
-# ===========================
 
 with tab2:
     st.subheader("Ride Demand Insights")
