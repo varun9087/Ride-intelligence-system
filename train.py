@@ -67,7 +67,7 @@ print("\nModel Performance:")
 print("R² Score:", r2)
 print("MAE:", mae)
 
-# Save model
+#
 with open("models/model.pkl", "wb") as f:
     pickle.dump(model, f)
 
