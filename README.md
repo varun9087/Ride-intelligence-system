@@ -25,7 +25,7 @@ Optimize pricing models
 
 Manage driver allocation
 
-Analyze peak demand periods
+Analyze peak  ride demand periods
 
 This system predicts trip duration based on ride characteristics and provides insights into demand distribution.
 
